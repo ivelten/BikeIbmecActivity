@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MilhasActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/milhas"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/milhasTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/americanasImageView"
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/americanas"
+                    android:src="@drawable/americanas" />
+
+                <ImageView
+                    android:id="@+id/magaluImageView"
+                    android:layout_width="195dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/magalu"
+                    android:src="@drawable/magalu" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/netshoesImageView"
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/netshoes"
+                    android:src="@drawable/netshoes" />
+
+                <ImageView
+                    android:id="@+id/pontoImageView"
+                    android:layout_width="195dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/ponto"
+                    android:src="@drawable/ponto" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/rennerImageView"
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/renner"
+                    android:src="@drawable/renner" />
+
+                <ImageView
+                    android:id="@+id/centauroImageView"
+                    android:layout_width="195dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/centauro"
+                    android:src="@drawable/centauro" />
+            </TableRow>
+
+        </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

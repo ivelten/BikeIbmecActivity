@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">BikeIbmec</string>
+
+    <string name="error">Error</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BikeVeiga</string>
+    <string name="nav_header_subtitle">bike@veigadealmeida.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_cadastro_clientes">Cadastro de Clientes</string>
+    <string name="menu_pedaladas">Pedaladas</string>
+    <string name="menu_agendamentos">Agendamentos</string>
+    <string name="menu_programa_milhas">Programa Milhas</string>
+    <string name="menu_missao">Missao</string>
+    <string name="menu_sobre">Sobre</string>
+
+    <string name="label_matricula">Matricula</string>
+    <string name="label_nome">Nome</string>
+    <string name="label_sobrenome">Sobrenome</string>
+    <string name="label_sexo">Sexo</string>
+    <string name="label_sexo_feminino">Feminino</string>
+    <string name="label_sexo_masculino">Masculino</string>
+    <string name="label_curso">Curso</string>
+    <string name="label_curso_eng_comp">Eng. Computacao</string>
+    <string name="label_curso_eng_civ">Eng. Civil</string>
+    <string name="label_curso_eng_prod">Eng. Producao</string>
+    <string name="label_curso_eng_mec">Eng. Mecanica</string>
+    <string name="label_celular">Celular</string>
+    <string name="label_email">Email</string>
+    <string name="label_cartao_bandeira">Bandeira</string>
+    <string name="label_cartao_bandeira_american">American Express</string>
+    <string name="label_cartao_bandeira_mastercard">Mastercard</string>
+    <string name="label_cartao_bandeira_visa">Visa</string>
+    <string name="label_cartao_numero">Numero</string>
+    <string name="label_cartao_titular">Titular</string>
+    <string name="label_cartao_validade">Validade</string>
+    <string name="label_cartao_validade_helper_text">MM/YY</string>
+    <string name="label_cartao_cv">CVC</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="dia">Dia</string>
+    <string name="local">Local</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="milhas">Milhas:</string>
+    <string name="magalu">Magalu</string>
+    <string name="americanas">Americanas</string>
+    <string name="netshoes">Netshoes</string>
+    <string name="ponto">Ponto</string>
+    <string name="renner">Renner</string>
+    <string name="centauro">Centauro</string>
+    <string name="e_mail">E-mail</string>
+    <string name="bike_veigadealmeida_br">bike@veigadealmeida.br</string>
+    <string name="enviar_e_mail">Enviar e-mail</string>
+    <string name="https_uva_br">https://uva.br/</string>
+    <string name="website">WebSite</string>
+    <string name="ir_para_o_website">Ir para o WebSite</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="download_app">Download App</string>
+    <string name="lorem_ipsum">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an
+        unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+        software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular
+        belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+        Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+        a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+        word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from
+        sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+        Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
+        popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+        amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used
+        since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from
+        "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
+        accompanied by English versions from the 1914 translation by H. Rackham. It is a long
+        established fact that a reader will be distracted by the readable content of a page when
+        looking at its layout.
+    </string>
+
+</resources>
